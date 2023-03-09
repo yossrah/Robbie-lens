@@ -1,0 +1,23 @@
+.el1 ,.el2, .el3, .el4 , .el5, .el6{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 16px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.el6{
+    display: flex;
+    /* justify-content: flex-end; */
+    flex: 1;
+}
+.el1{
+    flex: 2;
+}
